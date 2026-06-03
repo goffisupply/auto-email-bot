@@ -1,0 +1,29 @@
+# Environment variables
+.env
+*.env
+
+# Google credentials (NEVER commit these)
+credentials.json
+*credentials*.json
+service_account*.json
+polar-access-462001-b4-6c92a1bc1f45.json
+
+# Sent log
+sent_log.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
